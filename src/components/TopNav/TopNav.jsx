@@ -16,20 +16,39 @@ const TopNav = () => {
 						<Nav className='me-auto'>
 							<Nav.Link href='/'>Home</Nav.Link>
 							<Nav.Link href='/data'>Data</Nav.Link>
-							<NavDropdown
+                            <NavDropdown
 								title='Central'
 								id='basic-nav-dropdown'>
-								<NavDropdown.Item href='/central'>
+                                <NavDropdown.Item href='/central'>Central</NavDropdown.Item>
+								<NavDropdown.Item href='/central/data1'>
 									Action
 								</NavDropdown.Item>
-								<NavDropdown.Item href='/central'>
+								<NavDropdown.Item href='/central/data2'>
 									Another action
 								</NavDropdown.Item>
-								<NavDropdown.Item href='/central'>
+								<NavDropdown.Item href='/central/data3'>
 									Something
 								</NavDropdown.Item>
 								<NavDropdown.Divider />
-								<NavDropdown.Item href='/central'>
+								<NavDropdown.Item href='/central/data4'>
+									Separated link
+								</NavDropdown.Item>
+							</NavDropdown>
+							<NavDropdown
+								title='Media'
+								id='basic-nav-dropdown'>
+                                <NavDropdown.Item href='/media'>Media</NavDropdown.Item>
+								<NavDropdown.Item href='/media/books'>
+									Action
+								</NavDropdown.Item>
+								<NavDropdown.Item href='/media/movies'>
+									Another action
+								</NavDropdown.Item>
+								<NavDropdown.Item href='/media/tv'>
+									Something
+								</NavDropdown.Item>
+								<NavDropdown.Divider />
+								<NavDropdown.Item href='/media/all'>
 									Separated link
 								</NavDropdown.Item>
 							</NavDropdown>

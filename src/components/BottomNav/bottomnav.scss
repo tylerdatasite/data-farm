@@ -5,6 +5,8 @@
 div#bottomnav {
     div.navbar-nav {
         background-color: $Dark;
+        border-radius: 0.175rem;
+        border-top: 2px solid $Light;
 
         a.nav-link {
             color: $Light;
