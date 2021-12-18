@@ -1,14 +1,16 @@
 // Index SCSS
 
 @import url('https://fonts.googleapis.com/css2?family=Questrial&family=Work+Sans:wght@100;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
 $Text: 'Questrial', sans-serif;
-$Header: 'Work Sans', sans-serif;
+$Header: 'Prata', serif;
 $Dark: #231f20;
 $Light: #e2e2e2;
 $Blue: #004ae9;
-$Red: #f75b34;
-$Green: #31864b;
+$LightBlue: #3f42f1;
+$Red: #f05454;
+$Green: #16c79a;
 
 body {
     margin: 0;

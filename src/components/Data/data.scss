@@ -1,0 +1,18 @@
+// Data SCSS
+
+@import '../../index.scss';
+
+div#data {
+    div.MuiPaper-root {
+        box-shadow: 3px 4px 0 $Dark;
+        border: 2px solid $Dark;
+    }
+
+    thead.MuiTableHead-root {
+        background-color: $LightBlue;
+    }
+
+    th.MuiTableCell-head {
+        color: $Light;
+    }
+}

@@ -15,26 +15,27 @@ const TopNav = () => {
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='me-auto'>
 							<Nav.Link href='/'>Home</Nav.Link>
-							<Nav.Link href='/'>Data</Nav.Link>
+							<Nav.Link href='/data'>Data</Nav.Link>
 							<NavDropdown
 								title='Central'
 								id='basic-nav-dropdown'>
-								<NavDropdown.Item href='#action/3.1'>
+								<NavDropdown.Item href='/central'>
 									Action
 								</NavDropdown.Item>
-								<NavDropdown.Item href='#action/3.2'>
+								<NavDropdown.Item href='/central'>
 									Another action
 								</NavDropdown.Item>
-								<NavDropdown.Item href='#action/3.3'>
+								<NavDropdown.Item href='/central'>
 									Something
 								</NavDropdown.Item>
 								<NavDropdown.Divider />
-								<NavDropdown.Item href='#action/3.4'>
+								<NavDropdown.Item href='/central'>
 									Separated link
 								</NavDropdown.Item>
 							</NavDropdown>
-                            <Nav.Link href='/'>Case Studies</Nav.Link>
-                            <Nav.Link href='/'>Testing</Nav.Link>
+                            <Nav.Link href='/case_studies'>Case Studies</Nav.Link>
+                            <Nav.Link href='/testing'>Testing</Nav.Link>
+                            <Nav.Link href='/articles'>Articles</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>

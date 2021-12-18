@@ -2,20 +2,76 @@
 
 @import '../../index.scss';
 
-div#topnav {}
+div#topnav div.container {
+    padding: 1rem;
+}
 
 div#topnav nav.navbar {
     background-color: #fff;
-    border: none;
-    border-radius: 0;
+    border: 2px solid $Dark;
+    border-radius: 0.15rem;
     box-shadow: 2px 3px 0 #000;
     margin-bottom: 2rem;
     padding: 0;
     // position: relative;
     z-index: 5;
+
+    div.dropdown-menu.show {
+        border: 2px solid $Dark;
+        box-shadow: 3px 5px 0 $Dark;
+    }
+}
+
+div#topnav nav.navbar:hover {
+    background-color: $LightBlue;
+    box-shadow: 8px 8px 0 #000;
+    transition: all 0.3s ease-in-out;
+    border: 3px solid $Dark;
+
+    a.navbar-brand {
+        color: $Red;
+    }
+
+    div.dropdown-menu.show {
+        border: 2px solid $Dark;
+        background-color: $LightBlue;
+        box-shadow: 8px 8px 0 $Dark;
+        
+        a.dropdown-item {
+            color: $Light;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.15rem;
+
+            &:hover {
+                background-color: $Red;
+                color: $Light;
+            }
+        }
+    }
+
+    a.nav-link {
+        color: $Light;
+        font-family: $Text;
+
+        &:hover {
+            color: $Red;
+        }
+    }
 }
 
 div#topnav a.nav-link {
     color: $Dark;
     margin: auto 0.5rem;
+}
+
+div#topnav button.navbar-toggler {
+    box-shadow: 2px 2px 0 #000;
+    border-radius: 0.15rem;
+}
+
+div#topnav button.navbar-toggler:hover {
+    background-color: $LightBlue;
+    color: #fff;
+    box-shadow: 4px 4px 0 #000;
+    transition: all 0.4s ease-in-out;
 }

@@ -1,1 +1,18 @@
 // BottomNav SCSS
+
+@import '../../index.scss';
+
+div#bottomnav {
+    div.navbar-nav {
+        background-color: $Dark;
+
+        a.nav-link {
+            color: $Light;
+            font-family: $Text;
+
+            &:hover {
+                color: $Red;
+            }
+        }
+    }
+}
