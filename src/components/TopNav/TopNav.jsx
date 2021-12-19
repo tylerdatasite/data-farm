@@ -19,38 +19,35 @@ const TopNav = () => {
                             <NavDropdown
 								title='Central'
 								id='basic-nav-dropdown'>
-                                <NavDropdown.Item href='/central'>Central</NavDropdown.Item>
-								<NavDropdown.Item href='/central/data1'>
-									Action
+								<NavDropdown.Item href='/central/cypress'>
+									Cypress
 								</NavDropdown.Item>
-								<NavDropdown.Item href='/central/data2'>
-									Another action
+								<NavDropdown.Item href='/central/banyan'>
+									Banyan
 								</NavDropdown.Item>
-								<NavDropdown.Item href='/central/data3'>
-									Something
+								<NavDropdown.Item href='/central/neem'>
+									Neem
+								</NavDropdown.Item>
+								<NavDropdown.Item href='/central/wollemi'>
+									Wollemi
 								</NavDropdown.Item>
 								<NavDropdown.Divider />
-								<NavDropdown.Item href='/central/data4'>
-									Separated link
-								</NavDropdown.Item>
+                                <NavDropdown.Item href='/central'>Central</NavDropdown.Item>
 							</NavDropdown>
 							<NavDropdown
 								title='Media'
 								id='basic-nav-dropdown'>
-                                <NavDropdown.Item href='/media'>Media</NavDropdown.Item>
 								<NavDropdown.Item href='/media/books'>
-									Action
+									Books
 								</NavDropdown.Item>
 								<NavDropdown.Item href='/media/movies'>
-									Another action
+									Movies
 								</NavDropdown.Item>
 								<NavDropdown.Item href='/media/tv'>
-									Something
+									TV Shows
 								</NavDropdown.Item>
 								<NavDropdown.Divider />
-								<NavDropdown.Item href='/media/all'>
-									Separated link
-								</NavDropdown.Item>
+                                <NavDropdown.Item href='/media'>Media</NavDropdown.Item>
 							</NavDropdown>
                             <Nav.Link href='/case_studies'>Case Studies</Nav.Link>
                             <Nav.Link href='/testing'>Testing</Nav.Link>

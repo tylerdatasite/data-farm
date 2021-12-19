@@ -1,5 +1,12 @@
 // Store JS
-import createStore from "zustand";
-import reducers from './reducers';
+// (This store uses Redux/React-Redux)
+import { createStore, applyMiddleware } from "redux";
+import thunkMiddleware from "redux-thunk";
+import centralReducers from "./reducers";
 
-export const store = createStore(reducers);
+const store = createStore(
+    centralReducers,
+    applyMiddleware(thunkMiddleware)
+);
+
+export default store;

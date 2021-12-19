@@ -3,6 +3,8 @@
 @import '../../index.scss';
 
 div#data {
+    // margin-top: 8rem; // this is for a fixed='top' nav.navbar
+
     div.MuiPaper-root {
         box-shadow: 3px 4px 0 $Dark;
         border: 2px solid $Dark;

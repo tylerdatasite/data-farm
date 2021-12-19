@@ -11,9 +11,9 @@ div#topnav nav.navbar {
     border: 2px solid $Dark;
     border-radius: 0.15rem;
     box-shadow: 2px 3px 0 #000;
-    margin-bottom: 2rem;
+    // margin: 2rem; // this is for a fixed='top' nav.navbar
+    margin-bottom: 4rem;
     padding: 0;
-    // position: relative;
     z-index: 5;
 
     div.dropdown-menu.show {
@@ -36,7 +36,7 @@ div#topnav nav.navbar:hover {
         border: 2px solid $Dark;
         background-color: $LightBlue;
         box-shadow: 8px 8px 0 $Dark;
-        
+
         a.dropdown-item {
             color: $Light;
             padding: 0.25rem 0.5rem;

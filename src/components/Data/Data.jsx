@@ -34,7 +34,7 @@ const Data = () => {
 	return (
 		<div id='data'>
 			<div id='box'>
-				<h1>Company Data</h1>
+				<h1 className='control'>Company Data</h1>
 			</div>
 
 			<TableContainer component={Paper}>
